@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  resources :users
   get 'altpage', to: 'alt_page#index'
 
   get 'home/index'
